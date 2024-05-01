@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #111;
+}
+img {
+  max-width: 100%;
+}
+.weather-card {
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  padding: 35px 30px;
+  margin: 30px auto 0;
+  border-radius: 20px;
+  color: #fff;
+  background: rgb(26,14,22);
+  background: -moz-linear-gradient(90deg, rgba(26,14,22,1) 0%, rgba(56,1,75,1) 0%, rgba(49,51,110,1) 49%, rgba(51,108,159,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(26,14,22,1) 0%, rgba(56,1,75,1) 0%, rgba(49,51,110,1) 49%, rgba(51,108,159,1) 100%);
+  background: linear-gradient(90deg, rgba(26,14,22,1) 0%, rgba(56,1,75,1) 0%, rgba(49,51,110,1) 49%, rgba(51,108,159,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a0e16",endColorstr="#336c9f",GradientType=1);}
+.weather-card .search {
+  display: flex;
+  justify-conntent: space-between;
+  align-items: center;
+  width: 100%;
+}
+.weather-card .search input {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  flex: 1;
+  color: #555;
+  padding: 10px 25px;
+  outline: none;
+  background: #ebfffc;
+  border: none;
+  border-radius: 10px;
+}
+.weather-card .search button {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-left: 16px;
+  border: none;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+}
+.weather-card .search button i {
+  font-size: 20px;
+  color: #333;
+}
+.weather h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  margin-top: -1rem;
+}
+.weather h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.weather .weather-icon {
+  width: 60%;
+  height: 200px;
+  padding: 10px;
+}
+.details {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.details .humi {
+  filter: brightness(10000%);
+}
+.details img {
+  width: 40px;
+  height: 40px;
+}
+.details .info {
+  margin-left: 10px;
+}
+.details .humidity,
+.wind {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
