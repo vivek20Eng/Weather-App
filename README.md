@@ -1,8 +1,8 @@
 ![Project Status](https://img.shields.io/badge/Status-Done-brightgreen)
 
-## [LIVE  👁️](https://sketch-web.vercel.app/)
+## [LIVE  👁️](https://weather-app-virid-sigma-20.vercel.app/)
 
-## [Demo ▶](https://www.youtube.com/watch?v=LDJLmANk3B0&list=PLqEsFbdKffrHop7MPmqCjoT-sPGtQkdDA)
+## [Demo ▶](https://www.youtube.com/watch?v=Rw3obnGNbNU)
 
 # Weather App
 
@@ -37,3 +37,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Screenshots
+
+![img](./screenshots/1.png)

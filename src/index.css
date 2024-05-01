@@ -26,7 +26,7 @@ img {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a0e16",endColorstr="#336c9f",GradientType=1);}
 .weather-card .search {
   display: flex;
-  justify-conntent: space-between;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
